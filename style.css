@@ -1,0 +1,35 @@
+*{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+img{
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 50px;
+}
+/* .name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+} */
+h1{
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+p{
+  font-size: 13px;
+}
+.name p{
+  margin-top: 0;
+}
+.purple{
+  background-color: hsl(263, 55%, 52%);
+}
